@@ -7,3 +7,4 @@ The purpose of this repository is to replicate the IAN-R1 geometry, materials, a
 Figure 1: Picture of the AIN-R1
 
 # Project Goals
+* Build a high-fidelity IAN-R1 reactor core model in OpenMC
