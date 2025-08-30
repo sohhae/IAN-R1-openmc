@@ -44,10 +44,3 @@ docker run --rm -it -v $(pwd)/Results:/app/Results ian-r1-openmc
 docker run --rm -it -v $(pwd)/Results:/app/Results ian-r1-openmc python "Code/3D Plot Top.py"
 docker run --rm -it -v $(pwd)/Results:/app/Results ian-r1-openmc python "Code/3D Plot XZ.py"
 ```
-
-
-
-
-
-
-# Data Sources & Referen
