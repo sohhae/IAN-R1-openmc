@@ -1,0 +1,1212 @@
+ =========================>     TALLY 1: FLUX     <=========================
+
+ Cell 1
+   Total Material
+     Flux                                 13.8479 +/- 0.0134962
+ =======================>     TALLY 2: FISSION     <========================
+
+ Cell 1
+   Total Material
+     Fission Rate                         0.66566 +/- 0.00125606
+ ======================>     TALLY 3: MESH_FLUX     <=======================
+
+ Mesh Index (1, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (6, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (7, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (8, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (9, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (10, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (11, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (12, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (13, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (14, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (15, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (16, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (17, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 1, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (6, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (7, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (8, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (9, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (10, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (11, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (12, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (13, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (14, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (15, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (16, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (17, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 2, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (6, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (7, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (8, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (9, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (10, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (11, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (12, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (13, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (14, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (15, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (16, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (17, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 3, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (6, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (7, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (8, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (9, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (10, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (11, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (12, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (13, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (14, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (15, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (16, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (17, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 4, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 5, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 5, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 5, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 5, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 5, 1)
+   Total Material
+     Flux                                 0.140114 +/- 0.000767446
+ Mesh Index (6, 5, 1)
+   Total Material
+     Flux                                 0.168617 +/- 0.000769165
+ Mesh Index (7, 5, 1)
+   Total Material
+     Flux                                 0.168879 +/- 0.000735455
+ Mesh Index (8, 5, 1)
+   Total Material
+     Flux                                 0.168775 +/- 0.000748751
+ Mesh Index (9, 5, 1)
+   Total Material
+     Flux                                 0.168395 +/- 0.0007411
+ Mesh Index (10, 5, 1)
+   Total Material
+     Flux                                 0.168713 +/- 0.000740934
+ Mesh Index (11, 5, 1)
+   Total Material
+     Flux                                 0.168015 +/- 0.000653322
+ Mesh Index (12, 5, 1)
+   Total Material
+     Flux                                 0.167409 +/- 0.000798226
+ Mesh Index (13, 5, 1)
+   Total Material
+     Flux                                 0.168493 +/- 0.000784355
+ Mesh Index (14, 5, 1)
+   Total Material
+     Flux                                 0.169146 +/- 0.000856813
+ Mesh Index (15, 5, 1)
+   Total Material
+     Flux                                 0.171168 +/- 0.000829811
+ Mesh Index (16, 5, 1)
+   Total Material
+     Flux                                 0.143072 +/- 0.000823632
+ Mesh Index (17, 5, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 5, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 5, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 5, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 6, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 6, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 6, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 6, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 6, 1)
+   Total Material
+     Flux                                 0.169054 +/- 0.00073179
+ Mesh Index (6, 6, 1)
+   Total Material
+     Flux                                 0.20247 +/- 0.000881564
+ Mesh Index (7, 6, 1)
+   Total Material
+     Flux                                 0.203053 +/- 0.000821764
+ Mesh Index (8, 6, 1)
+   Total Material
+     Flux                                 0.202417 +/- 0.000784462
+ Mesh Index (9, 6, 1)
+   Total Material
+     Flux                                 0.202134 +/- 0.000732662
+ Mesh Index (10, 6, 1)
+   Total Material
+     Flux                                 0.202963 +/- 0.000756164
+ Mesh Index (11, 6, 1)
+   Total Material
+     Flux                                 0.203174 +/- 0.000792905
+ Mesh Index (12, 6, 1)
+   Total Material
+     Flux                                 0.201317 +/- 0.000772021
+ Mesh Index (13, 6, 1)
+   Total Material
+     Flux                                 0.201489 +/- 0.000731065
+ Mesh Index (14, 6, 1)
+   Total Material
+     Flux                                 0.202918 +/- 0.000836455
+ Mesh Index (15, 6, 1)
+   Total Material
+     Flux                                 0.20415 +/- 0.00085251
+ Mesh Index (16, 6, 1)
+   Total Material
+     Flux                                 0.170485 +/- 0.000809126
+ Mesh Index (17, 6, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 6, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 6, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 6, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 7, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 7, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 7, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 7, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 7, 1)
+   Total Material
+     Flux                                 0.168377 +/- 0.000783267
+ Mesh Index (6, 7, 1)
+   Total Material
+     Flux                                 0.202508 +/- 0.000844373
+ Mesh Index (7, 7, 1)
+   Total Material
+     Flux                                 0.201947 +/- 0.000819184
+ Mesh Index (8, 7, 1)
+   Total Material
+     Flux                                 0.202222 +/- 0.000793261
+ Mesh Index (9, 7, 1)
+   Total Material
+     Flux                                 0.201195 +/- 0.000737978
+ Mesh Index (10, 7, 1)
+   Total Material
+     Flux                                 0.202535 +/- 0.000753748
+ Mesh Index (11, 7, 1)
+   Total Material
+     Flux                                 0.203354 +/- 0.000691849
+ Mesh Index (12, 7, 1)
+   Total Material
+     Flux                                 0.20197 +/- 0.000692915
+ Mesh Index (13, 7, 1)
+   Total Material
+     Flux                                 0.202338 +/- 0.000737295
+ Mesh Index (14, 7, 1)
+   Total Material
+     Flux                                 0.202226 +/- 0.000852233
+ Mesh Index (15, 7, 1)
+   Total Material
+     Flux                                 0.203354 +/- 0.00084189
+ Mesh Index (16, 7, 1)
+   Total Material
+     Flux                                 0.169783 +/- 0.000774177
+ Mesh Index (17, 7, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 7, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 7, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 7, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 8, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 8, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 8, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 8, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 8, 1)
+   Total Material
+     Flux                                 0.168961 +/- 0.000804337
+ Mesh Index (6, 8, 1)
+   Total Material
+     Flux                                 0.202596 +/- 0.000800551
+ Mesh Index (7, 8, 1)
+   Total Material
+     Flux                                 0.202746 +/- 0.000787047
+ Mesh Index (8, 8, 1)
+   Total Material
+     Flux                                 0.204273 +/- 0.000791903
+ Mesh Index (9, 8, 1)
+   Total Material
+     Flux                                 0.20234 +/- 0.000782442
+ Mesh Index (10, 8, 1)
+   Total Material
+     Flux                                 0.20327 +/- 0.000697003
+ Mesh Index (11, 8, 1)
+   Total Material
+     Flux                                 0.203726 +/- 0.000675391
+ Mesh Index (12, 8, 1)
+   Total Material
+     Flux                                 0.20368 +/- 0.0008246
+ Mesh Index (13, 8, 1)
+   Total Material
+     Flux                                 0.202779 +/- 0.000721032
+ Mesh Index (14, 8, 1)
+   Total Material
+     Flux                                 0.203347 +/- 0.000811506
+ Mesh Index (15, 8, 1)
+   Total Material
+     Flux                                 0.204596 +/- 0.000874151
+ Mesh Index (16, 8, 1)
+   Total Material
+     Flux                                 0.170188 +/- 0.000835583
+ Mesh Index (17, 8, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 8, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 8, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 8, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 9, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 9, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 9, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 9, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 9, 1)
+   Total Material
+     Flux                                 0.16871 +/- 0.000740122
+ Mesh Index (6, 9, 1)
+   Total Material
+     Flux                                 0.201302 +/- 0.000814159
+ Mesh Index (7, 9, 1)
+   Total Material
+     Flux                                 0.203574 +/- 0.000747459
+ Mesh Index (8, 9, 1)
+   Total Material
+     Flux                                 0.202358 +/- 0.000761995
+ Mesh Index (9, 9, 1)
+   Total Material
+     Flux                                 0.201955 +/- 0.000719126
+ Mesh Index (10, 9, 1)
+   Total Material
+     Flux                                 0.202362 +/- 0.000725115
+ Mesh Index (11, 9, 1)
+   Total Material
+     Flux                                 0.20368 +/- 0.000774576
+ Mesh Index (12, 9, 1)
+   Total Material
+     Flux                                 0.202499 +/- 0.000774964
+ Mesh Index (13, 9, 1)
+   Total Material
+     Flux                                 0.203905 +/- 0.000761242
+ Mesh Index (14, 9, 1)
+   Total Material
+     Flux                                 0.202665 +/- 0.000790497
+ Mesh Index (15, 9, 1)
+   Total Material
+     Flux                                 0.203383 +/- 0.000754834
+ Mesh Index (16, 9, 1)
+   Total Material
+     Flux                                 0.169146 +/- 0.00072892
+ Mesh Index (17, 9, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 9, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 9, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 9, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 10, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 10, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 10, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 10, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 10, 1)
+   Total Material
+     Flux                                 0.169337 +/- 0.000755089
+ Mesh Index (6, 10, 1)
+   Total Material
+     Flux                                 0.203252 +/- 0.000745676
+ Mesh Index (7, 10, 1)
+   Total Material
+     Flux                                 0.201064 +/- 0.000810707
+ Mesh Index (8, 10, 1)
+   Total Material
+     Flux                                 0.202405 +/- 0.000778714
+ Mesh Index (9, 10, 1)
+   Total Material
+     Flux                                 0.202317 +/- 0.000703099
+ Mesh Index (10, 10, 1)
+   Total Material
+     Flux                                 0.203733 +/- 0.000745324
+ Mesh Index (11, 10, 1)
+   Total Material
+     Flux                                 0.203221 +/- 0.000728856
+ Mesh Index (12, 10, 1)
+   Total Material
+     Flux                                 0.203875 +/- 0.00078433
+ Mesh Index (13, 10, 1)
+   Total Material
+     Flux                                 0.201343 +/- 0.000753624
+ Mesh Index (14, 10, 1)
+   Total Material
+     Flux                                 0.203037 +/- 0.000833648
+ Mesh Index (15, 10, 1)
+   Total Material
+     Flux                                 0.204028 +/- 0.000781956
+ Mesh Index (16, 10, 1)
+   Total Material
+     Flux                                 0.169816 +/- 0.000774453
+ Mesh Index (17, 10, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 10, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 10, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 10, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 11, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 11, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 11, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 11, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 11, 1)
+   Total Material
+     Flux                                 0.168043 +/- 0.000776176
+ Mesh Index (6, 11, 1)
+   Total Material
+     Flux                                 0.20298 +/- 0.000790319
+ Mesh Index (7, 11, 1)
+   Total Material
+     Flux                                 0.201941 +/- 0.000803606
+ Mesh Index (8, 11, 1)
+   Total Material
+     Flux                                 0.202891 +/- 0.000719452
+ Mesh Index (9, 11, 1)
+   Total Material
+     Flux                                 0.203641 +/- 0.000641726
+ Mesh Index (10, 11, 1)
+   Total Material
+     Flux                                 0.203153 +/- 0.000699492
+ Mesh Index (11, 11, 1)
+   Total Material
+     Flux                                 0.202588 +/- 0.000623415
+ Mesh Index (12, 11, 1)
+   Total Material
+     Flux                                 0.203566 +/- 0.000735227
+ Mesh Index (13, 11, 1)
+   Total Material
+     Flux                                 0.203766 +/- 0.000740779
+ Mesh Index (14, 11, 1)
+   Total Material
+     Flux                                 0.203114 +/- 0.000796209
+ Mesh Index (15, 11, 1)
+   Total Material
+     Flux                                 0.202563 +/- 0.000902734
+ Mesh Index (16, 11, 1)
+   Total Material
+     Flux                                 0.168538 +/- 0.000755296
+ Mesh Index (17, 11, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 11, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 11, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 11, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 12, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 12, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 12, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 12, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 12, 1)
+   Total Material
+     Flux                                 0.16877 +/- 0.000748484
+ Mesh Index (6, 12, 1)
+   Total Material
+     Flux                                 0.201763 +/- 0.00079154
+ Mesh Index (7, 12, 1)
+   Total Material
+     Flux                                 0.201915 +/- 0.000746265
+ Mesh Index (8, 12, 1)
+   Total Material
+     Flux                                 0.202659 +/- 0.000728423
+ Mesh Index (9, 12, 1)
+   Total Material
+     Flux                                 0.202577 +/- 0.000663471
+ Mesh Index (10, 12, 1)
+   Total Material
+     Flux                                 0.203032 +/- 0.000691882
+ Mesh Index (11, 12, 1)
+   Total Material
+     Flux                                 0.204488 +/- 0.000702899
+ Mesh Index (12, 12, 1)
+   Total Material
+     Flux                                 0.203426 +/- 0.000692549
+ Mesh Index (13, 12, 1)
+   Total Material
+     Flux                                 0.203323 +/- 0.000742302
+ Mesh Index (14, 12, 1)
+   Total Material
+     Flux                                 0.201785 +/- 0.000808384
+ Mesh Index (15, 12, 1)
+   Total Material
+     Flux                                 0.201771 +/- 0.000867588
+ Mesh Index (16, 12, 1)
+   Total Material
+     Flux                                 0.167188 +/- 0.000834041
+ Mesh Index (17, 12, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 12, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 12, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 12, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 13, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 13, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 13, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 13, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 13, 1)
+   Total Material
+     Flux                                 0.168847 +/- 0.000721035
+ Mesh Index (6, 13, 1)
+   Total Material
+     Flux                                 0.201894 +/- 0.000822312
+ Mesh Index (7, 13, 1)
+   Total Material
+     Flux                                 0.202169 +/- 0.000784818
+ Mesh Index (8, 13, 1)
+   Total Material
+     Flux                                 0.204616 +/- 0.000761779
+ Mesh Index (9, 13, 1)
+   Total Material
+     Flux                                 0.203462 +/- 0.000702693
+ Mesh Index (10, 13, 1)
+   Total Material
+     Flux                                 0.203579 +/- 0.000677946
+ Mesh Index (11, 13, 1)
+   Total Material
+     Flux                                 0.203438 +/- 0.000766959
+ Mesh Index (12, 13, 1)
+   Total Material
+     Flux                                 0.20359 +/- 0.000719382
+ Mesh Index (13, 13, 1)
+   Total Material
+     Flux                                 0.204089 +/- 0.000720665
+ Mesh Index (14, 13, 1)
+   Total Material
+     Flux                                 0.20263 +/- 0.000744043
+ Mesh Index (15, 13, 1)
+   Total Material
+     Flux                                 0.202439 +/- 0.000853817
+ Mesh Index (16, 13, 1)
+   Total Material
+     Flux                                 0.168586 +/- 0.000763411
+ Mesh Index (17, 13, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 13, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 13, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 13, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 14, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 14, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 14, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 14, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 14, 1)
+   Total Material
+     Flux                                 0.169077 +/- 0.000763253
+ Mesh Index (6, 14, 1)
+   Total Material
+     Flux                                 0.201982 +/- 0.000779787
+ Mesh Index (7, 14, 1)
+   Total Material
+     Flux                                 0.202319 +/- 0.000742077
+ Mesh Index (8, 14, 1)
+   Total Material
+     Flux                                 0.203023 +/- 0.000663716
+ Mesh Index (9, 14, 1)
+   Total Material
+     Flux                                 0.202308 +/- 0.000722202
+ Mesh Index (10, 14, 1)
+   Total Material
+     Flux                                 0.202392 +/- 0.000740428
+ Mesh Index (11, 14, 1)
+   Total Material
+     Flux                                 0.202729 +/- 0.000788227
+ Mesh Index (12, 14, 1)
+   Total Material
+     Flux                                 0.202463 +/- 0.000736856
+ Mesh Index (13, 14, 1)
+   Total Material
+     Flux                                 0.202266 +/- 0.000696578
+ Mesh Index (14, 14, 1)
+   Total Material
+     Flux                                 0.202871 +/- 0.000838342
+ Mesh Index (15, 14, 1)
+   Total Material
+     Flux                                 0.201362 +/- 0.000768177
+ Mesh Index (16, 14, 1)
+   Total Material
+     Flux                                 0.168694 +/- 0.000746546
+ Mesh Index (17, 14, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 14, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 14, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 14, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 15, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 15, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 15, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 15, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 15, 1)
+   Total Material
+     Flux                                 0.169489 +/- 0.000810488
+ Mesh Index (6, 15, 1)
+   Total Material
+     Flux                                 0.203517 +/- 0.000895255
+ Mesh Index (7, 15, 1)
+   Total Material
+     Flux                                 0.202176 +/- 0.00080113
+ Mesh Index (8, 15, 1)
+   Total Material
+     Flux                                 0.201041 +/- 0.000759349
+ Mesh Index (9, 15, 1)
+   Total Material
+     Flux                                 0.201502 +/- 0.000818217
+ Mesh Index (10, 15, 1)
+   Total Material
+     Flux                                 0.202209 +/- 0.00080627
+ Mesh Index (11, 15, 1)
+   Total Material
+     Flux                                 0.202229 +/- 0.000743864
+ Mesh Index (12, 15, 1)
+   Total Material
+     Flux                                 0.202809 +/- 0.000768873
+ Mesh Index (13, 15, 1)
+   Total Material
+     Flux                                 0.203404 +/- 0.000725726
+ Mesh Index (14, 15, 1)
+   Total Material
+     Flux                                 0.202997 +/- 0.000860247
+ Mesh Index (15, 15, 1)
+   Total Material
+     Flux                                 0.202793 +/- 0.000884274
+ Mesh Index (16, 15, 1)
+   Total Material
+     Flux                                 0.168006 +/- 0.000823419
+ Mesh Index (17, 15, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 15, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 15, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 15, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 16, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 16, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 16, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 16, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 16, 1)
+   Total Material
+     Flux                                 0.141436 +/- 0.000743952
+ Mesh Index (6, 16, 1)
+   Total Material
+     Flux                                 0.169723 +/- 0.000794928
+ Mesh Index (7, 16, 1)
+   Total Material
+     Flux                                 0.16976 +/- 0.000763355
+ Mesh Index (8, 16, 1)
+   Total Material
+     Flux                                 0.16922 +/- 0.000794907
+ Mesh Index (9, 16, 1)
+   Total Material
+     Flux                                 0.168901 +/- 0.000763693
+ Mesh Index (10, 16, 1)
+   Total Material
+     Flux                                 0.169757 +/- 0.000684655
+ Mesh Index (11, 16, 1)
+   Total Material
+     Flux                                 0.168469 +/- 0.000704173
+ Mesh Index (12, 16, 1)
+   Total Material
+     Flux                                 0.168035 +/- 0.000743895
+ Mesh Index (13, 16, 1)
+   Total Material
+     Flux                                 0.16872 +/- 0.000830166
+ Mesh Index (14, 16, 1)
+   Total Material
+     Flux                                 0.167824 +/- 0.000789098
+ Mesh Index (15, 16, 1)
+   Total Material
+     Flux                                 0.167717 +/- 0.000846379
+ Mesh Index (16, 16, 1)
+   Total Material
+     Flux                                 0.138959 +/- 0.000810871
+ Mesh Index (17, 16, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 16, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 16, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 16, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (6, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (7, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (8, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (9, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (10, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (11, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (12, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (13, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (14, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (15, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (16, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (17, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 17, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (6, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (7, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (8, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (9, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (10, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (11, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (12, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (13, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (14, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (15, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (16, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (17, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 18, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (6, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (7, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (8, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (9, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (10, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (11, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (12, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (13, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (14, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (15, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (16, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (17, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 19, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (1, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (2, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (3, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (4, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (5, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (6, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (7, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (8, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (9, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (10, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (11, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (12, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (13, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (14, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (15, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (16, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (17, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (18, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (19, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
+ Mesh Index (20, 20, 1)
+   Total Material
+     Flux                                 0 +/- 0
