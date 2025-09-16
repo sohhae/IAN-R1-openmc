@@ -4,26 +4,44 @@
     <pixels>1400 1400</pixels>
     <level>0</level>
     <origin>0.0 0.0 0.0</origin>
-    <width>35.532 35.532</width>
+    <width>55.272000000000006 55.272000000000006</width>
     <color id="1" rgb="150 200 255"/>
-    <color id="2" rgb="245 245 245"/>
-    <color id="3" rgb="120 120 120"/>
-    <color id="4" rgb="175 175 175"/>
-    <color id="5" rgb="20 20 20"/>
-    <color id="6" rgb="255 160 0"/>
-    <color id="7" rgb="210 180 140"/>
+    <color id="2" rgb="230 230 230"/>
+    <color id="3" rgb="255 255 200"/>
+    <color id="4" rgb="245 245 245"/>
+    <color id="5" rgb="120 120 120"/>
+    <color id="6" rgb="175 175 175"/>
+    <color id="7" rgb="20 20 20"/>
+    <color id="8" rgb="255 160 0"/>
+    <color id="9" rgb="210 180 140"/>
   </plot>
   <plot basis="xy" color_by="material" filename="core_full_xy" id="2" type="slice">
     <pixels>1400 1400</pixels>
     <level>0</level>
     <origin>0.0 0.0 0.0</origin>
-    <width>200.0 200.0</width>
+    <width>580.8000000000001 580.8000000000001</width>
     <color id="1" rgb="150 200 255"/>
-    <color id="2" rgb="245 245 245"/>
-    <color id="3" rgb="120 120 120"/>
-    <color id="4" rgb="175 175 175"/>
-    <color id="5" rgb="20 20 20"/>
-    <color id="6" rgb="255 160 0"/>
-    <color id="7" rgb="210 180 140"/>
+    <color id="2" rgb="230 230 230"/>
+    <color id="3" rgb="255 255 200"/>
+    <color id="4" rgb="245 245 245"/>
+    <color id="5" rgb="120 120 120"/>
+    <color id="6" rgb="175 175 175"/>
+    <color id="7" rgb="20 20 20"/>
+    <color id="8" rgb="255 160 0"/>
+    <color id="9" rgb="210 180 140"/>
+  </plot>
+  <plot basis="xz" color_by="material" filename="reactor_xz" id="3" type="slice">
+    <pixels>1400 1400</pixels>
+    <origin>0.0 0.0 0.0</origin>
+    <width>580.8000000000001 1067.0</width>
+    <color id="1" rgb="150 200 255"/>
+    <color id="2" rgb="230 230 230"/>
+    <color id="3" rgb="255 255 200"/>
+    <color id="4" rgb="245 245 245"/>
+    <color id="5" rgb="120 120 120"/>
+    <color id="6" rgb="175 175 175"/>
+    <color id="7" rgb="20 20 20"/>
+    <color id="8" rgb="255 160 0"/>
+    <color id="9" rgb="210 180 140"/>
   </plot>
 </plots>
