@@ -22,7 +22,10 @@ Figure 1: Picture of the AIN-R1
 # Installation Guide: IAN-R1-openmc Model
 Follow these steps to run the IAN-R1-openmc model directly on your computer.
 
-Step 1: Clone the Repository
+Step 1: Install Git
+If you do not have Git installed, you'll need to download and install it first to clone the repository. Go to https://git-scm.com/downloads and follow the installation instructions for your operating system. After installation, restart your terminal.
+
+Step 2: Clone the Repository
 First, open your terminal and clone the GitHub project.
 
 ```bash
@@ -30,13 +33,13 @@ First, open your terminal and clone the GitHub project.
 git clone https://github.com/sohhae/IAN-R1-openmc.git
 cd IAN-R1-openmc
 ```
-Step 2: Create a Python Virtual Environment
+Step 3: Create a Python Virtual Environment
 It is a good practice to create a virtual environment to isolate project dependencies and avoid conflicts with other Python installations.
 
 ```bash
 python3 -m venv venv
 ```
-Step 3: Activate the Virtual Environment
+Step 4: Activate the Virtual Environment
 Activate the virtual environment you just created. The commands vary depending on your operating system:
 
 On macOS and Linux:
@@ -49,13 +52,13 @@ On Windows:
 ```bash
 venv\Scripts\activate
 ```
-Step 4: Install Dependencies
+Step 5: Install Dependencies
 Once the virtual environment is active, install all the necessary libraries using the project's requirements.txt file.
 
 ```bash
 pip install -r requirements.txt
 ```
-Step 5: Run the Main Model
+Step 6: Run the Main Model
 Now you can run the model's main script. Make sure your terminal is in the project's root directory (IAN-R1-openmc).
 
 ```bash
