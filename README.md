@@ -22,8 +22,8 @@ Figure 1: Picture of the AIN-R1
 # Installation Guide: IAN-R1-openmc Model
 Follow these steps to run the IAN-R1-openmc model directly on your computer.
 
-Step 1: Install Git
-If you do not have Git installed and python, you'll need to download and install it first to clone the repository. Go to https://git-scm.com/downloads and https://www.python.org/downloads and follow the installation instructions for your operating system. After installation, restart your terminal.
+Step 1: Install Docker
+Make sure you have Docker installed. If not, download it from the official Docker website.
 
 Step 2: Clone the Repository
 First, open your terminal and clone the GitHub project.
@@ -33,35 +33,15 @@ First, open your terminal and clone the GitHub project.
 git clone https://github.com/sohhae/IAN-R1-openmc.git
 cd IAN-R1-openmc
 ```
-Step 3: Create a Python Virtual Environment
-It is a good practice to create a virtual environment to isolate project dependencies and avoid conflicts with other Python installations.
+Step 3: Build the Docker Image
+This command builds the Docker image, which installs Python, OpenMC, and all other dependencies inside the container. this step might take some minutes
 
 ```bash
-python3 -m venv venv
+docker build -t ian-r1-openmc 
 ```
 Step 4: Activate the Virtual Environment
-Activate the virtual environment you just created. The commands vary depending on your operating system:
-
-On macOS and Linux:
+To run the model, use the following command. This command mounts your entire project folder inside the container so the code can access all necessary files and save results.
 
 ```bash
-source venv/bin/activate
+docker run --rm -it -v "$(pwd)":/app ian-r1-openmc python /app/Code/main_model.py
 ```
-On Windows:
-
-```bash
-venv\Scripts\activate
-```
-Step 5: Install Dependencies
-Once the virtual environment is active, install all the necessary libraries using the project's requirements.txt file.
-
-```bash
-pip install -r requirements.txt
-```
-Step 6: Run the Main Model
-Now you can run the model's main script. Make sure your terminal is in the project's root directory (IAN-R1-openmc).
-
-```bash
-python Code/main_model.py
-```
-That's it! The model will run and the results will be saved in the Results/ folder of your project.
