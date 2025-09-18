@@ -23,7 +23,7 @@ Figure 1: Picture of the AIN-R1
 Follow these steps to run the IAN-R1-openmc model directly on your computer.
 
 Step 1: Install Docker
-Make sure you have Docker installed. If not, download it from the official Docker website.
+Make sure you have Docker installed. If not, download it from the official Docker website https://www.docker.com/get-started/
 
 Step 2: Clone the Repository
 First, open your terminal and clone the GitHub project.
