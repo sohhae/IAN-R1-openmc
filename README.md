@@ -23,7 +23,7 @@ Figure 1: Picture of the AIN-R1
 Follow these steps to run the IAN-R1-openmc model directly on your computer.
 
 Step 1: Install Git
-If you do not have Git installed, you'll need to download and install it first to clone the repository. Go to https://git-scm.com/downloads and follow the installation instructions for your operating system. After installation, restart your terminal.
+If you do not have Git installed and python, you'll need to download and install it first to clone the repository. Go to https://git-scm.com/downloads and https://www.python.org/downloads and follow the installation instructions for your operating system. After installation, restart your terminal.
 
 Step 2: Clone the Repository
 First, open your terminal and clone the GitHub project.
