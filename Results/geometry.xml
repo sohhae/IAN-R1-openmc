@@ -8,28 +8,28 @@
   <cell id="6" material="1" region="4" universe="2"/>
   <cell id="7" material="3" region="-5" universe="3"/>
   <cell id="8" material="1" region="5" universe="3"/>
-  <cell id="9" material="4" region="-6" universe="4"/>
-  <cell id="10" material="6" region="6 -7" universe="4"/>
-  <cell id="11" material="1" region="7" universe="4"/>
   <cell id="12" material="5" universe="5"/>
   <cell id="13" material="1" universe="6"/>
-  <cell fill="7" id="14" universe="8"/>
-  <cell fill="8" id="15" name="Reactor Block" region="8 -9 10 -11 12 -13" universe="9"/>
-  <cell id="16" material="9" name="Concrete Floor Thin" region="-19 18 -24" universe="9"/>
-  <cell id="17" material="1" name="Pool" region="-19 24 -14 (-8 | 9 | -10 | 11 | -12 | 13)" universe="9"/>
-  <cell id="18" material="9" name="Concrete Top Ring" region="19 -20 15 -14" universe="9"/>
-  <cell id="19" material="9" name="Concrete Mid Level" region="19 -21 16 -15" universe="9"/>
-  <cell id="20" material="9" name="Concrete Low Ring" region="19 -22 17 -16" universe="9"/>
-  <cell id="21" material="9" name="Concrete Base" region="-22 18 -17" universe="9"/>
-  <cell id="22" material="2" name="Outside Air" region="-23 (22 | -18 | 17) (-19 | 22 | -17 | 16) (-19 | 21 | -16 | 15) (-19 | 20 | -15 | 14) (19 | -18 | 24) (19 | -24 | 14 | (8 -9 10 -11 12 -13)) (-8 | 9 | -10 | 11 | -12 | 13)" universe="9"/>
-  <lattice id="7">
+  <cell id="14" material="4" name="Irradiation Air" region="-8" universe="7"/>
+  <cell id="15" material="6" name="Irradiation Steel" region="8 -9" universe="7"/>
+  <cell id="16" material="1" name="Irradiation Moderator" region="9" universe="7"/>
+  <cell fill="8" id="17" universe="9"/>
+  <cell fill="9" id="18" name="Reactor Block" region="10 -11 12 -13 14 -15" universe="10"/>
+  <cell id="19" material="9" name="Concrete Floor Thin" region="-21 20 -26" universe="10"/>
+  <cell id="20" material="1" name="Pool" region="-21 26 -16 (-10 | 11 | -12 | 13 | -14 | 15)" universe="10"/>
+  <cell id="21" material="9" name="Concrete Top Ring" region="21 -22 17 -16" universe="10"/>
+  <cell id="22" material="9" name="Concrete Mid Level" region="21 -23 18 -17" universe="10"/>
+  <cell id="23" material="9" name="Concrete Low Ring" region="21 -24 19 -18" universe="10"/>
+  <cell id="24" material="9" name="Concrete Base" region="-24 20 -19" universe="10"/>
+  <cell id="25" material="2" name="Outside Air" region="-25 (24 | -20 | 19) (-21 | 24 | -19 | 18) (-21 | 23 | -18 | 17) (-21 | 22 | -17 | 16) (21 | -20 | 26) (21 | -26 | 16 | (10 -11 12 -13 14 -15)) (-10 | 11 | -12 | 13 | -14 | 15)" universe="10"/>
+  <lattice id="8">
     <pitch>3.76 3.76</pitch>
     <dimension>14 14</dimension>
     <lower_left>-26.32 -26.32</lower_left>
     <universes>
 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
 6 5 5 5 5 5 5 5 5 5 5 5 5 6 
-6 5 5 4 4 5 4 4 5 4 4 5 5 6 
+6 5 5 7 7 5 7 7 5 7 7 5 5 6 
 6 5 5 5 5 5 5 5 5 5 5 5 5 6 
 6 5 5 5 5 1 1 1 1 1 3 5 5 6 
 6 5 5 5 5 1 1 1 1 1 1 5 5 6 
@@ -47,23 +47,23 @@
   <surface coeffs="0.0 0.0 1.2" id="3" type="z-cylinder"/>
   <surface coeffs="0.0 0.0 1.6" id="4" type="z-cylinder"/>
   <surface coeffs="0.0 0.0 1.6" id="5" type="z-cylinder"/>
-  <surface coeffs="0.0 0.0 1.55" id="6" type="z-cylinder"/>
-  <surface coeffs="0.0 0.0 1.6" id="7" type="z-cylinder"/>
-  <surface coeffs="-26.32" id="8" type="x-plane"/>
-  <surface coeffs="26.32" id="9" type="x-plane"/>
-  <surface coeffs="-26.32" id="10" type="y-plane"/>
-  <surface coeffs="26.32" id="11" type="y-plane"/>
-  <surface coeffs="-40.0" id="12" type="z-plane"/>
-  <surface coeffs="40.0" id="13" type="z-plane"/>
-  <surface coeffs="440.0" id="14" type="z-plane"/>
-  <surface coeffs="170.0" id="15" type="z-plane"/>
-  <surface coeffs="-50.0" id="16" type="z-plane"/>
-  <surface coeffs="-220.0" id="17" type="z-plane"/>
-  <surface coeffs="-530.0" id="18" type="z-plane"/>
-  <surface coeffs="0.0 0.0 100.0" id="19" type="z-cylinder"/>
-  <surface coeffs="0.0 0.0 134.0" id="20" type="z-cylinder"/>
-  <surface coeffs="0.0 0.0 204.0" id="21" type="z-cylinder"/>
-  <surface coeffs="0.0 0.0 264.0" id="22" type="z-cylinder"/>
-  <surface boundary="vacuum" coeffs="0.0 0.0 526.0" id="23" type="z-cylinder"/>
-  <surface coeffs="-480.0" id="24" type="z-plane"/>
+  <surface coeffs="0.0 0.0 1.55" id="8" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 1.6" id="9" type="z-cylinder"/>
+  <surface coeffs="-26.32" id="10" type="x-plane"/>
+  <surface coeffs="26.32" id="11" type="x-plane"/>
+  <surface coeffs="-26.32" id="12" type="y-plane"/>
+  <surface coeffs="26.32" id="13" type="y-plane"/>
+  <surface coeffs="-40.0" id="14" type="z-plane"/>
+  <surface coeffs="40.0" id="15" type="z-plane"/>
+  <surface coeffs="440.0" id="16" type="z-plane"/>
+  <surface coeffs="170.0" id="17" type="z-plane"/>
+  <surface coeffs="-50.0" id="18" type="z-plane"/>
+  <surface coeffs="-220.0" id="19" type="z-plane"/>
+  <surface coeffs="-530.0" id="20" type="z-plane"/>
+  <surface coeffs="0.0 0.0 100.0" id="21" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 134.0" id="22" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 204.0" id="23" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 264.0" id="24" type="z-cylinder"/>
+  <surface boundary="vacuum" coeffs="0.0 0.0 526.0" id="25" type="z-cylinder"/>
+  <surface coeffs="-480.0" id="26" type="z-plane"/>
 </geometry>

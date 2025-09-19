@@ -157,6 +157,18 @@ pin_irr_univ = openmc.Universe(cells=[
 pin_graphite_univ = openmc.Universe(cells=[openmc.Cell(fill=graphite)])
 # Agua
 pin_water_univ = openmc.Universe(cells=[openmc.Cell(fill=h2o)])
+# Canal de irradiación (blanco)
+irr_ir = openmc.ZCylinder(r=IRR_RADIUS-0.05)
+irr_or = openmc.ZCylinder(r=IRR_RADIUS)
+
+cell_irr_air = openmc.Cell(name="Irradiation Air", fill=air_white, region=-irr_ir)
+cell_irr_ss  = openmc.Cell(name="Irradiation Steel", fill=ss304, region=+irr_ir & -irr_or)
+cell_irr_mod = openmc.Cell(name="Irradiation Moderator", fill=h2o, region=+irr_or)
+
+pin_irr_univ = openmc.Universe(cells=[cell_irr_air, cell_irr_ss, cell_irr_mod])
+
+# Guardar la lista de celdas de irradiación
+irr_cells = [cell_irr_air, cell_irr_ss, cell_irr_mod]
 
 # ================= Lattice (NO CAMBIO EL MAPA) =================
 lattice_rows = [
@@ -376,12 +388,84 @@ z_tally.filters = [z_mesh_filter]
 z_tally.scores = ['flux']
 tallies.append(z_tally)
 
-# Espectro de energía
-energy_filter = openmc.EnergyFilter.from_group_structure('XMAS-172')
-energy_tally = openmc.Tally(name='energy_flux_tally')
-energy_tally.filters = [energy_filter]
-energy_tally.scores = ['flux']
-tallies.append(energy_tally)
+# === Tally: Espectros de energía en el canal de irradiación ===
+energy_filter = openmc.EnergyFilter.from_group_structure("XMAS-172")
+cell_filter = openmc.CellFilter(irr_cells)
+
+tally_spectra = openmc.Tally(name="multi_cell_spectrum")
+tally_spectra.filters = [cell_filter, energy_filter]
+tally_spectra.scores = ["flux"]
+
+tallies.append(tally_spectra)
+
+# === Tally radial ===
+r_mesh = openmc.CylindricalMesh(
+    r_grid=np.linspace(0.0, 60.0, 30),  # radios 0–60 cm en 30 bins
+    z_grid=[-50.0, 50.0],               # altura (un solo bin entre -50 y 50 cm)
+    phi_grid=[0.0, 2*np.pi]             # ángulo (un solo bin para todo 360°)
+)
+
+r_filter = openmc.MeshFilter(r_mesh)
+
+radial_tally = openmc.Tally(name="radial_flux")
+radial_tally.filters = [r_filter]
+radial_tally.scores = ["flux"]
+tallies.append(radial_tally)
+
+# Malla Z (axial)
+z_mesh = openmc.RegularMesh()
+z_mesh.dimension = [1, 1, 80]
+z_mesh.lower_left = [-1.0, -1.0, -50.0]
+z_mesh.upper_right = [ 1.0, 1.0, 50.0]
+z_mesh_filter = openmc.MeshFilter(z_mesh)
+z_tally = openmc.Tally(name='z_mesh_flux')
+z_tally.filters = [z_mesh_filter]
+z_tally.scores = ['flux']
+tallies.append(z_tally)
+
+# --- Flux, fission y absorción por material ---
+mat_filter = openmc.MaterialFilter([fuel, h2o, graphite, ss304, b4c, concrete, air, air_white, air_yellow])
+tally_reactor = openmc.Tally(name='flux_fission_absorption_by_material')
+tally_reactor.filters = [mat_filter]
+tally_reactor.scores = ['flux', 'fission', 'absorption']
+tallies.append(tally_reactor)
+
+# === Tally: Espectros por material ===
+energy_filter = openmc.EnergyFilter.from_group_structure("XMAS-172")
+mat_filter = openmc.MaterialFilter([fuel, h2o, graphite, b4c])
+
+tally_spectrum_materials = openmc.Tally(name="spectrum_by_material")
+tally_spectrum_materials.filters = [mat_filter, energy_filter]
+tally_spectrum_materials.scores = ["flux"]
+
+tallies.append(tally_spectrum_materials)
+
+# === Tally radial extendido ===
+r_mesh = openmc.CylindricalMesh(
+    r_grid=np.linspace(0.0, 60.0, 60),  
+    z_grid=[-50.0, 50.0],               
+    phi_grid=[0.0, 2*np.pi]             
+)
+
+r_filter = openmc.MeshFilter(r_mesh)
+
+radial_tally = openmc.Tally(name="radial_flux_extended")
+radial_tally.filters = [r_filter]
+radial_tally.scores = ["flux"]
+tallies.append(radial_tally)
+
+# === Tally axial extendido ===
+z_mesh = openmc.RegularMesh()
+z_mesh.dimension = [1, 1, 100]         # 100 bins para más detalle
+z_mesh.lower_left = [-1.0, -1.0, -250.0]  # de -250 cm
+z_mesh.upper_right = [ 1.0,  1.0,  250.0] # a +250 cm
+z_filter = openmc.MeshFilter(z_mesh)
+
+axial_tally = openmc.Tally(name="axial_flux_extended")
+axial_tally.filters = [z_filter]
+axial_tally.scores = ["flux"]
+tallies.append(axial_tally)
+
 
 tallies.export_to_xml()
 
