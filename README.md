@@ -37,7 +37,7 @@ Step 3: Build the Docker Image
 This command builds the Docker image, which installs Python, OpenMC, and all other dependencies inside the container. this step might take some minutes
 
 ```bash
-docker build -t ian-r1-openmc 
+docker build -t ian-r1-openmc .
 ```
 Step 4: Activate the Virtual Environment
 To run the model, use the following command. This command mounts your entire project folder inside the container so the code can access all necessary files and save results.
