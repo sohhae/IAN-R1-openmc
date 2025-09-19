@@ -6,11 +6,13 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y \
     gfortran \
     libopenmpi-dev \
-    openmpi \
+    openmpi-bin \
     cmake \
     git \
     libhdf5-dev \
-    libpng-dev
+    libpng-dev \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
 
 # Clone OpenMC and build from source
 RUN git clone https://github.com/openmc-dev/openmc.git /opt/openmc && \
@@ -21,7 +23,7 @@ RUN git clone https://github.com/openmc-dev/openmc.git /opt/openmc && \
     make install
 
 # Install Python API and other project dependencies
-COPY requirements.txt ./
+COPY requirements.txt ./ 
 RUN pip install --no-cache-dir /opt/openmc && \
     pip install --no-cache-dir -r requirements.txt
 
@@ -29,6 +31,9 @@ RUN pip install --no-cache-dir /opt/openmc && \
 COPY . .
 
 # Set the default command to run your main script
-CMD ["python", "Code/main_model.py"]
+CMD ["python", "Code/12.py"]
+
+
+
 
 
