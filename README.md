@@ -43,5 +43,5 @@ Step 4: Activate the Virtual Environment
 To run the model, use the following command. This command mounts your entire project folder inside the container so the code can access all necessary files and save results.
 
 ```bash
-docker run --rm -it -v "$(pwd)":/app ian-r1-openmc python /app/Code/main_model.py
+docker run --rm -it -v "${PWD}:/app" ian-r1-openmc
 ```
