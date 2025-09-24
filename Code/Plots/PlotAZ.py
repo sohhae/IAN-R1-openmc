@@ -1,35 +1,45 @@
-# PlotZ.py
 import openmc
 import matplotlib.pyplot as plt
 import numpy as np
 
-# === Cargar resultados ===
-sp = openmc.StatePoint("statepoint.200.h5")
+# === Abrir statepoint ===
+sp = openmc.StatePoint("/root/openmc_project/Results/statepoint.200.h5")
 
-# === Obtener tally axial ===
-tally = sp.get_tally(name="z_mesh_flux")
+# === Obtener tally con fisiones y absorciones ===
+tally = sp.get_tally(name="flux_fission_absorption_by_material")
 df = tally.get_pandas_dataframe()
 
-print("Columnas disponibles:", df.columns)
+materials = df['material'].unique()
+f_values = []
+labels = []
 
-# === Extraer coordenadas z y flujo ===
-z_bins = df[('mesh 2', 'z')].to_numpy()  # depende de cómo OpenMC lo exporte (ajustar 'mesh 2')
-flux = df['mean'].to_numpy()
+for mat in materials:
+    sub = df[df['material'] == mat]
+    fission = sub[sub['score'] == 'fission']['mean'].sum()
+    absorption = sub[sub['score'] == 'absorption']['mean'].sum()
 
-# Para centrar cada bin en z
-# Como tienes 80 bins entre -50 y 50 cm:
-z_centers = np.linspace(-50, 50, len(flux))
+    if fission > 0:  # solo materiales con fisión
+        f_eff = fission / absorption if absorption > 0 else 0.0
+        f_values.append(f_eff)
+        labels.append(f"Material {mat}")
 
 # === Graficar ===
-plt.figure(figsize=(6,5))
-plt.semilogy(z_centers, flux, 'ro-', label="Monte Carlo")
+fig, ax = plt.subplots(figsize=(6,5))
 
-plt.xlabel("z [cm]")
-plt.ylabel(r"$\phi(z)$ [n/cm$^2$]")
-plt.title("Axial distribution of neutrons in the moderator")
-plt.legend()
-plt.grid(True, which="both", ls="--")
+bars = ax.bar(labels, f_values, color="royalblue", edgecolor="black")
 
-plt.savefig("axial_flux.png", dpi=300)
-plt.close()
+# Añadir valores encima de cada barra
+for bar in bars:
+    height = bar.get_height()
+    ax.text(bar.get_x() + bar.get_width()/2., height + 0.02,
+            f"{height:.2f}", ha='center', va='bottom', fontsize=10, fontweight="bold")
+
+ax.set_ylabel("f-effective (Fission / Absorption)")
+ax.set_title("f-effective by material in IAN-R1", fontsize=13, fontweight="bold")
+ax.set_ylim(0, 1)  # rango de 0 a 1 para claridad
+ax.grid(True, axis="y", ls="--", alpha=0.7)
+
+plt.tight_layout()
+plt.savefig("f_effective_by_material_improved.png", dpi=300)
+plt.show()
 
